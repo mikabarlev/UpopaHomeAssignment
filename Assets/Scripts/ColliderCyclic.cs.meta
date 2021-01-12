@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 6b35cb0be8eaab54089d677e2f811901
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - spaceshipPrefab: {fileID: 942533865699680779, guid: 51886f0e414330d4d8e881f6df5e5f33,
+      type: 3}
+  - asteroidRedPrefab: {fileID: 3776986265272117956, guid: 99727c0822dde2e4a909f6eb5cc6083f,
+      type: 3}
+  - asteroidBluePrefab: {fileID: -8034302895277277184, guid: c1b6f95057ba74278a346f9317014754,
+      type: 3}
+  - gameRef: {fileID: 6597585561222326439, guid: 2f7d8e0b07f189b4381a0cb574cc6e00,
+      type: 3}
+  executionOrder: 300
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

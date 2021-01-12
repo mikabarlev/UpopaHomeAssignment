@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 5704810477330139906}
   - component: {fileID: 7552388891410464712}
   - component: {fileID: 884250614220611346}
+  - component: {fileID: -1046934160401705156}
+  - component: {fileID: -8034302895277277184}
   m_Layer: 0
   m_Name: Astro_Blue
-  m_TagString: Untagged
+  m_TagString: blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88,8 +90,46 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8345035825226964509}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 2.2849388
-  m_Center: {x: 0.13404405, y: 0.17153019, z: 0.050696015}
+  m_Radius: 2.3
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &-1046934160401705156
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8345035825226964509}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &-8034302895277277184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8345035825226964509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e416fc83f3100a4989182713935e16e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  collideTimer: 100
+  collideRight: 0
+  collideLeft: 0
+  collideTop: 0
+  collideBottom: 0
+  pickableItemPrefab: {fileID: 1318332179983116086, guid: 7d8438c465b610745ae7de7a7fa60b31,
+    type: 3}
+  game: {fileID: 6597585561222326439, guid: 2f7d8e0b07f189b4381a0cb574cc6e00, type: 3}
+  destroyInSec: 0

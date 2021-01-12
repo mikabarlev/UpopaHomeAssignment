@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - AstroRadius
+  - red
+  - rightCollider
+  - leftCollider
+  - topCollider
+  - bottomCollider
   layers:
   - Default
   - TransparentFX
